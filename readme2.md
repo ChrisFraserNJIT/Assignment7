@@ -20,4 +20,10 @@ Overall, Docker has made me see how much easier it is to share and run projects 
 
 I deleted the previous QR codes generated to only show the ones in this readme2 file
 
-![Screenhots](Screenshots/Logs.png "My QR Code Link")
+![Screenhots](Screenshots/Logs.png "Logs")
+
+## Screenshot of GitHub Actions
+
+This screenshot shows my GitHub Actions
+
+![Screenhots](Screenshots/Actions.png "Actions")
