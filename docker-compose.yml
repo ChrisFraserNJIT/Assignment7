@@ -2,7 +2,6 @@ version: '3.8'
 
 services:
   qr_code_app:
-    container_name: qr_code_generator
     build:
       context: .
       dockerfile: Dockerfile
