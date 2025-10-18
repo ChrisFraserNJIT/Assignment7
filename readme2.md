@@ -2,8 +2,8 @@
 
 ## My GitHub Repository
 
-![GitHub Repo](qr_codes/ "My QR Code Link")
+![GitHub Repo](qr_codes/QRCode_20251018151300.png "My QR Code Link")
 
 ## My DockerHub Image
 
-![Docker QR Image](qr_codes/QRCode_20251018144757.png "My QR Code Link")
+![Docker QR Image](qr_codes/QRCode_20251018151209.png "My QR Code Link")
