@@ -1,0 +1,30 @@
+name: Docker Build and Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout repo
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Docker
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      # Step 3: Build Docker image
+      - name: Build Docker image
+        run: docker build . -t qr_code_app:latest
+
+      # Step 4: Run the container (optional test)
+      - name: Run Docker container
+        run: docker run --rm qr_code_app:latest --url https://github.com/ChrisFraserNJIT/Assignment7
